@@ -26,6 +26,7 @@ canvas {
   border-radius: 8px;
   cursor: pointer;
   background-color: black;
+  color: white;
 }
 
 #restart {
