@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Flip Card Memory Game</title>
+  <!-- Link CSS -->
+  <link rel="stylesheet" href="flip.css">
+</head>
+<body>
+  <div class="app">
+    <div class="head">
+      <h1>Flip Card <span class="badge">Memory</span></h1>
+    </div>
+
+    <div class="panel controls">
+      <div class="left">
+        <label for="difficulty">Difficulty</label>
+        <select id="difficulty" aria-label="Select difficulty">
+          <option value="4x4">Easy 4×4</option>
+          <option value="5x4">Medium 5×4</option>
+          <option value="6x6">Hard 6×6</option>
+        </select>
+        <button id="restart" class="primary">Restart</button>
+      </div>
+      <div class="right stats">
+        <div class="chip">Moves: <b id="moves">0</b></div>
+        <div class="chip">Time: <b id="time">00:00</b></div>
+        <div class="chip">Best: <b id="best">—</b></div>
+      </div>
+    </div>
+
+    <div id="board" class="panel grid" role="grid" aria-label="Memory board"></div>
+
+    <div class="footer">Made with ❤️ · Tip: Tap a card to flip. Match all pairs to win!</div>
+  </div>
+
+  <!-- Link JS -->
+  <script src="flip.js"></script>
+</body>
+</html>
