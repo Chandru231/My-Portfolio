@@ -8,11 +8,12 @@
 }
 
 body {
-  background: #0f2027;
-  background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
-  color: #fff;
-  line-height: 1.6;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #0f2027;
+  color: white;
 }
+
 
 /* Navigation */
 nav {
