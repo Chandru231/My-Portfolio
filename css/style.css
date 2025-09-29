@@ -243,7 +243,9 @@ nav {
 
 .project-card:hover {
     transform: translateY(-8px) scale(1.03);
-    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.35);
+    /* box-shadow: 0 12px 25px rgba(0, 0, 0, 0.35); */
+    box-shadow: 0 12px 30px rgba(0,0,0,0.2);
+    box-shadow: 0 0 35px rgba(0, 188, 212, 0.8);
 }
 
 .project-card img {
