@@ -153,6 +153,7 @@ h2 {
 
 .about-text .button:hover {
     background: #00a5d3;
+    box-shadow: 0 0 20px #00c3ff;
 }
 
 /* Responsive about section */
@@ -358,6 +359,158 @@ nav {
     background: #e33b3b;
     transform: scale(1.1);
 }
+/* 🎓 Education Section */
+#education {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+#education h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #ffffff; /* Heading stays white */
+}
+
+.education-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.education-card {
+  background: rgba(15, 25, 35, 0.6); /* Dark glass effect */
+  padding: 20px 25px;
+  border-radius: 15px;
+  max-width: 320px;
+  text-align: left;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.1);
+  transition: all 0.4s ease;
+  border: 1px solid rgba(0, 255, 255, 0.1);
+  color: #ffffff; /* Default text white */
+}
+
+/* ✨ Hover effect with teal glow */
+.education-card:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 0 25px rgba(0, 255, 255, 0.7);
+  border: 1px solid rgba(0, 255, 255, 0.6);
+}
+
+/* Headings stay default white */
+.education-card h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #ffffff;
+  color: #00e5ff;
+}
+
+/* Sub text uses cyan like contact */
+.education-card p {
+  font-size: 0.95rem;
+  margin: 4px 0;
+  color: #ffffff; /* same cyan as contact info */
+}
+/* end of education*/
+
+/* Skills Section */
+#skills {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+#skills h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  justify-items: center;
+}
+
+.skill-card {
+  background: rgba(15, 25, 35, 0.6);
+  backdrop-filter: blur(12px);
+  padding: 30px 20px;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+.skill-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.2);
+   box-shadow: 0 0 35px rgba(0, 188, 212, 0.8);
+}
+
+.skill-icon {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.skill-card h3 {
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+}
+
+.skill-card p {
+  font-size: 0.95rem;
+  color: #eee;
+}
+/* end of skill*/
+
+/* start of resume */
+#resume {
+  text-align: center;
+  padding: 80px 20px;
+  background: transparent;
+}
+
+
+.resume-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 20px;
+  background: rgba(15, 25, 35, 0.6);
+  transition: all 0.4s ease;
+}
+
+.resume-container:hover {
+  box-shadow: 0 0 30px rgba(0, 188, 212, 0.5);
+  transform: translateY(-5px);
+}
+
+.resume-container p {
+  color: #cfd8dc;
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.resume-button {
+  display: inline-block;
+  padding: 12px 30px;
+  background: #00c3ff;
+  color: #000;
+  border-radius: 25px;
+  font-weight: 600;
+  text-decoration: none;
+  box-shadow: 0 0 20px rgba(0, 188, 212, 0.5);
+  transition: all 0.3s ease;
+}
+
+.resume-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 35px rgba(0, 188, 212, 0.8);
+}
+
+/* end of resume */
 
 /* --- Contact --- */
 #contact { text-align: center; }
@@ -380,6 +533,8 @@ nav {
 .contact-card p { margin: 15px 0; font-size: 1.1rem; }
 .contact-card a { color: #00c3ff; text-decoration: none; transition: color 0.3s; }
 .contact-card a:hover { color: #00a5d3; }
+
+/* end of contact */
 
 /* --- Footer --- */
 footer {
@@ -414,29 +569,3 @@ footer {
   text-align: center;
 }
 
-.education-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-  margin-top: 20px;
-}
-
-.education-card {
-  background: rgba(255, 255, 255, 0.1);
-  padding: 20px;
-  border-radius: 15px;
-  max-width: 300px;
-  text-align: left;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-}
-
-.education-card h3 {
-  font-weight: 600;
-  margin-bottom: 8px;
-}
-
-.education-card p {
-  font-size: 14px;
-  margin-bottom: 5px;
-}
