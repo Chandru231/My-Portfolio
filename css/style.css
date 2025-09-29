@@ -237,14 +237,15 @@ nav {
     overflow: hidden;
     border-radius: 12px;
     cursor: pointer;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    background: rgba(255, 255, 255, 0.05);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    background: rgba(15, 25, 35, 0.6); /* match education card glass effect */
+    border: 1px solid rgba(0, 255, 255, 0.1); /* subtle border like education card */
 }
 
 .project-card:hover {
     transform: translateY(-8px) scale(1.03);
-    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.35);
-   
+    box-shadow: 0 0 25px rgba(0, 255, 255, 0.7); /* teal glow like education card */
+    border: 1px solid rgba(0, 255, 255, 0.6);  /* match hover border effect */
 }
 
 .project-card img {
@@ -256,9 +257,10 @@ nav {
     transition: transform 0.4s ease;
 }
 
-.project-card:hover img { transform: scale(1.1);
-                         box-shadow: 0 12px 30px rgba(0,0,0,0.2);
-    box-shadow: 0 0 35px rgba(0, 188, 212, 0.8);}
+.project-card:hover img {
+    transform: scale(1.05);
+}
+
 
 .project-card .card-content {
     position: absolute;
