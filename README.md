@@ -1,11 +1,11 @@
-<<<<<<< HEAD
+
 # 🌐 My Portfolio
 
 This is my personal Portfolio Website, built with HTML, CSS, and JavaScript.  
 It showcases my skills, projects, and achievements.
 
 ## 🚀 Live Demo
-👉 [View Portfolio](https://YOUR_USERNAME.github.io/PortFolio/)
+👉 [View Portfolio](https://chandru231.github.io/My-Portfolio/)
 
 ## 📂 Project Structure
 
@@ -18,8 +18,9 @@ It showcases my skills, projects, and achievements.
 ## 🛠️ Technologies Used
 - HTML5  
 - CSS3  
-- JavaScript  
+- JavaScript
+- React 
 
 ## 📬 Contact
-- GitHub: [YOUR_USERNAME](https://github.com/YOUR_USERNAME)  
-- Email: your.email@example.com  
+- GitHub: Chandru231(https://github.com/Chandru231)  
+- Email: chandruu231@gmail.com  
