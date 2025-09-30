@@ -7,9 +7,6 @@ This repository showcases my personal portfolio website, built with HTML, CSS, J
 ## 🚀 Live Demo
 👉 [View Portfolio](https://chandru231.github.io/My-Portfolio/)
 
-## 📂 Project Structure
-
-
 ## ✨ Features
 - Fully responsive design for mobile & desktop  
 - Interactive UI with JavaScript animations  
