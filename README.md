@@ -2,7 +2,7 @@
 # 🌐 My Portfolio
 
 Hi! I’m Chandru M, a Front-End Developer passionate about crafting responsive and interactive web experiences.  
-This repository showcases my personal portfolio website, built with **HTML, CSS, JavaScript, and React.
+This repository showcases my personal portfolio website, built with HTML, CSS, JavaScript, and React.
 
 ## 🚀 Live Demo
 👉 [View Portfolio](https://chandru231.github.io/My-Portfolio/)
