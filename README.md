@@ -23,5 +23,3 @@ It showcases my skills, projects, and achievements.
 ## 📬 Contact
 - GitHub: [YOUR_USERNAME](https://github.com/YOUR_USERNAME)  
 - Email: your.email@example.com  
-
->>>>>>> 2d09711f5ac186fc2ef0efec8e1237915463eb3d
