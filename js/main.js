@@ -284,3 +284,21 @@
     init();
   }
 })();
+
+// Scroll reveal for skills
+function initSkillsReveal() {
+  const skillCards = document.querySelectorAll('.skill-card');
+  const observer = new IntersectionObserver((entries, obs) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('revealed');
+        obs.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.15 });
+
+  skillCards.forEach(card => observer.observe(card));
+}
+
+// Call after DOM ready
+document.addEventListener('DOMContentLoaded', initSkillsReveal);
