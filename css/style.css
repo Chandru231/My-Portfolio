@@ -341,7 +341,9 @@ nav {
     color: #000;
     transition: background 0.3s ease, transform 0.2s ease;
 }
-
+.pm-actions a {
+  text-decoration: none; 
+}
 .pm-actions a:hover,
 .pm-actions button:hover { background: #00a5d3; transform: scale(1.05); }
 
